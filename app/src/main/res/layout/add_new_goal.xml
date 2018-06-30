@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Main4Activity">
+
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="79dp"
+        android:layout_height="35dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="41dp"
+        android:layout_marginTop="81dp"
+        android:text="Goal Name" />
+
+    <EditText
+        android:id="@+id/editText5"
+        android:layout_width="193dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/textView2"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="-1dp"
+        android:layout_marginEnd="39dp"
+        android:ems="10"
+        android:textSize="15dp"
+        android:inputType="textPersonName"
+        android:hint="Goal Name" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="78dp"
+        android:layout_height="37dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/textView2"
+        android:layout_marginTop="167dp"
+        android:text="Description" />
+
+    <EditText
+        android:id="@+id/editText3"
+        android:layout_width="198dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/textView3"
+        android:layout_alignStart="@+id/editText5"
+        android:ems="10"
+        android:textSize="15dp"
+        android:hint="Description"
+        android:inputType="textMultiLine" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="87dp"
+        android:layout_height="35dp"
+        android:layout_alignEnd="@+id/textView2"
+        android:layout_alignTop="@+id/editText4"
+        android:text="Time Limit" />
+
+    <EditText
+        android:id="@+id/editText4"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/editText5"
+        android:layout_centerVertical="true"
+        android:ems="10"
+        android:hint="Time limit(in seconds)"
+        android:inputType="numberDecimal"
+        android:textSize="15dp" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="70dp"
+        android:layout_marginStart="134dp"
+        android:text="ADD" />
+</RelativeLayout>

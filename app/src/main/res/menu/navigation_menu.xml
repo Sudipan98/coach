@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/all_goals"
+        android:title="All tasks"
+
+        />
+
+    <item android:id="@+id/pendingrequest"
+        android:title="Pending requests"
+
+        />
+    <item android:id="@+id/navgoals"
+        android:title="Goals completed"
+
+        />
+
+    <item android:id="@+id/settings"
+        android:title="Settings"
+
+        />
+
+
+
+</menu>
